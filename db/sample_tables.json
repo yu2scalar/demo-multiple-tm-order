@@ -1,0 +1,12 @@
+{
+  "shopping.order": {
+    "transaction": true,
+    "partition-key": ["id"],
+    "columns": {
+      "id": "TEXT",
+      "order_datetime": "TIMESTAMP",
+      "order_qty": "INT",
+      "product_id": "INT"
+    }
+  }
+}
